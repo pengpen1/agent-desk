@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" class="light" style="margin:0; padding:0; overflow:hidden;">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MCP Client</title>
+    <meta name="description" content="MCP Client - 管理和操作MCP服务的桌面客户端" />
+    <style>
+      /* 全局样式：移除所有默认边距和溢出 */
+      body, html, #root {
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: hidden !important;
+        width: 100% !important;
+        height: 100% !important;
+        border: none !important;
+      }
+    </style>
+  </head>
+  <body class="bg-white dark:bg-gray-900" style="margin:0; padding:0; overflow:hidden;">
+    <div id="root" style="margin:0; padding:0; width:100%; height:100%;"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
