@@ -1,0 +1,11 @@
+---
+description: 
+globs: *.js,*.md,*.html
+alwaysApply: false
+---
+# type=auto-attached
+
+# agent-desk项目指南
+
+这个规则提供了关于agent-desk项目的相关信息和指导。
+
